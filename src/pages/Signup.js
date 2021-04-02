@@ -65,7 +65,7 @@ function SignUp() {
           </input>
         </div>
         <div className="form-group">
-          {error ? <p>{error}</p> : null}
+          {error ? <p className="text-danger">{error}</p> : null}
           <button className="btn btn-primary px-5" type="submit">Sign up</button>
         </div>
         <p style={{ color: "rgb(116, 128, 138)" }}>You can also sign up with any of these services</p>
