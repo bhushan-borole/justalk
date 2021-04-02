@@ -39,13 +39,11 @@ function Login() {
         className="mt-5 py-5 px-5"
         autoComplete="off"
         onSubmit={handleSubmit}>
-        <h1>
+        <h1 style={{ color: "#74808a" }}>
           Login to
           <Link className="title ml-2" to="/">Justalk</Link>
         </h1>
-        <p className="lead">
-          Fill in the form below to login to your account.
-        </p>
+        <br/>
         <div className="form-group">
           <input
             className="form-control"
@@ -70,7 +68,7 @@ function Login() {
           {error ? ( <p className="text-danger">{error}</p> ) : null}
           <button className="btn btn-primary px-5" type="submit">Login</button>
         </div>
-        <p>You can also log in with any of these services</p>
+        <p style={{ color: "rgb(116, 128, 138)" }}>You can also log in with any of these services</p>
         <button className="btn btn-danger mr-2" type="button" onClick={googleSignIn}>
           Sign in with Google
         </button>
@@ -78,7 +76,7 @@ function Login() {
           Sign in with GitHub
         </button>
         <hr />
-        <p>
+        <p style={{ color: "rgb(116, 128, 138)" }}>
           Don't have an account? <Link to="/signup">Sign up</Link>
         </p>
       </form>

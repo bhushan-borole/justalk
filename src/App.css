@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #fcfcfc;
+  background-color: rgba(46, 45, 43, 1);
 }
 
 .chat-area, .home {

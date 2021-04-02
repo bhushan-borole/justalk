@@ -5,8 +5,8 @@ import { auth } from '../services/firebase';
 function Header() {
   return (
     <header>
-      <nav className="navbar navbar-expand-sm fixed-top navbar-light" style={{ zIndex: "1", background: "rgba(46, 45, 43, 1)" }}>
-        <Link className="navbar-brand" to="/">Justalk</Link>
+      <nav className="navbar navbar-expand-sm fixed-top navbar-light" style={{ zIndex: "1" }}>
+        <Link className="navbar-brand" to="/" style={{ color: "#fff" }}>Justalk</Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -16,8 +16,8 @@ function Header() {
               <button className="btn btn-primary mr-3" onClick={() => auth().signOut()}>Logout</button>
             </div>
             : <div className="navbar-nav">
-              <Link className="nav-item nav-link mr-3" to="/login">Sign In</Link>
-              <Link className="nav-item nav-link mr-3" to="/signup">Sign Up</Link>
+              <Link className="nav-item nav-link mr-3" to="/login" style={{ color: "#74808a" }}>Sign In</Link>
+              <Link className="nav-item nav-link mr-3" to="/signup" style={{ color: "#74808a" }}>Sign Up</Link>
             </div>}
         </div>
       </nav>

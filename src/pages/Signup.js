@@ -39,11 +39,11 @@ function SignUp() {
         className="mt-5 py-5 px-5"
         autoComplete="off"
         onSubmit={handleSubmit}>
-        <h1>
+        <h1 style={{ color: "#74808a" }}>
           Sign Up to
           <Link className="title ml-2" to="/">Justalk</Link>
         </h1>
-        <p className="lead">Fill in the form below to create an account.</p>
+        <br/>
         <div className="form-group">
           <input 
             className="form-control"
@@ -68,7 +68,7 @@ function SignUp() {
           {error ? <p>{error}</p> : null}
           <button className="btn btn-primary px-5" type="submit">Sign up</button>
         </div>
-        <p>You can also sign up with any of these services</p>
+        <p style={{ color: "rgb(116, 128, 138)" }}>You can also sign up with any of these services</p>
         <button className="btn btn-danger mr-2" type="button" onClick={googleSignIn}>
           Sign up with Google
         </button>
@@ -76,7 +76,7 @@ function SignUp() {
           Sign up with GitHub
         </button>
         <hr></hr>
-        <p>Already have an account? <Link to="/login">Login</Link></p>
+        <p style={{ color: "rgb(116, 128, 138)" }}>Already have an account? <Link to="/login">Login</Link></p>
       </form>
     </div>
   )

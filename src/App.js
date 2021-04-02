@@ -11,6 +11,8 @@ import SignUp from './pages/Signup';
 import Login from './pages/Login';
 import { auth } from './services/firebase';
 import './App.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function PrivateRoute({ component: Component, authenticated, ...rest }) {
   return (
@@ -57,6 +59,7 @@ function App() {
 
   return loading === true ? <h2>Loading...</h2> : (
     <Router>
+      <Header />
       <Switch>
         <Route 
           exact 
@@ -82,6 +85,7 @@ function App() {
           component={Login}>
         </PublicRoute>
       </Switch>
+      {/* <Footer /> */}
     </Router>
   )
 }
