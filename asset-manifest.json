@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/justalk/static/css/main.43f37af9.chunk.css",
-    "main.js": "/justalk/static/js/main.70f12bf4.chunk.js",
-    "main.js.map": "/justalk/static/js/main.70f12bf4.chunk.js.map",
+    "main.js": "/justalk/static/js/main.29f174cf.chunk.js",
+    "main.js.map": "/justalk/static/js/main.29f174cf.chunk.js.map",
     "runtime-main.js": "/justalk/static/js/runtime-main.2583cc4b.js",
     "runtime-main.js.map": "/justalk/static/js/runtime-main.2583cc4b.js.map",
     "static/js/2.9c94c31c.chunk.js": "/justalk/static/js/2.9c94c31c.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.2583cc4b.js",
     "static/js/2.9c94c31c.chunk.js",
     "static/css/main.43f37af9.chunk.css",
-    "static/js/main.70f12bf4.chunk.js"
+    "static/js/main.29f174cf.chunk.js"
   ]
 }
