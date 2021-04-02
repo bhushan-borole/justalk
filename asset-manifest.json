@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/justalk/static/css/main.7777a4f8.chunk.css",
-    "main.js": "/justalk/static/js/main.74d7819d.chunk.js",
-    "main.js.map": "/justalk/static/js/main.74d7819d.chunk.js.map",
+    "main.js": "/justalk/static/js/main.23254333.chunk.js",
+    "main.js.map": "/justalk/static/js/main.23254333.chunk.js.map",
     "runtime-main.js": "/justalk/static/js/runtime-main.2583cc4b.js",
     "runtime-main.js.map": "/justalk/static/js/runtime-main.2583cc4b.js.map",
-    "static/js/2.9c94c31c.chunk.js": "/justalk/static/js/2.9c94c31c.chunk.js",
-    "static/js/2.9c94c31c.chunk.js.map": "/justalk/static/js/2.9c94c31c.chunk.js.map",
+    "static/js/2.a50b38c7.chunk.js": "/justalk/static/js/2.a50b38c7.chunk.js",
+    "static/js/2.a50b38c7.chunk.js.map": "/justalk/static/js/2.a50b38c7.chunk.js.map",
     "static/js/3.26301846.chunk.js": "/justalk/static/js/3.26301846.chunk.js",
     "static/js/3.26301846.chunk.js.map": "/justalk/static/js/3.26301846.chunk.js.map",
     "index.html": "/justalk/index.html",
     "static/css/main.7777a4f8.chunk.css.map": "/justalk/static/css/main.7777a4f8.chunk.css.map",
-    "static/js/2.9c94c31c.chunk.js.LICENSE.txt": "/justalk/static/js/2.9c94c31c.chunk.js.LICENSE.txt"
+    "static/js/2.a50b38c7.chunk.js.LICENSE.txt": "/justalk/static/js/2.a50b38c7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2583cc4b.js",
-    "static/js/2.9c94c31c.chunk.js",
+    "static/js/2.a50b38c7.chunk.js",
     "static/css/main.7777a4f8.chunk.css",
-    "static/js/main.74d7819d.chunk.js"
+    "static/js/main.23254333.chunk.js"
   ]
 }
