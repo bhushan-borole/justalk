@@ -41,7 +41,7 @@ function SignUp() {
         onSubmit={handleSubmit}>
         <h1 style={{ color: "#74808a" }}>
           Sign Up to
-          <Link className="title ml-2" to="/">Justalk</Link>
+          <Link className="title ml-2" to="/justalk">Justalk</Link>
         </h1>
         <br/>
         <div className="form-group">
@@ -76,7 +76,7 @@ function SignUp() {
           Sign up with GitHub
         </button>
         <hr></hr>
-        <p style={{ color: "rgb(116, 128, 138)" }}>Already have an account? <Link to="/login">Login</Link></p>
+        <p style={{ color: "rgb(116, 128, 138)" }}>Already have an account? <Link to="/justalk/login">Login</Link></p>
       </form>
     </div>
   )

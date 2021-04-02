@@ -41,7 +41,7 @@ function Login() {
         onSubmit={handleSubmit}>
         <h1 style={{ color: "#74808a" }}>
           Login to
-          <Link className="title ml-2" to="/">Justalk</Link>
+          <Link className="title ml-2" to="/justalk">Justalk</Link>
         </h1>
         <br/>
         <div className="form-group">
@@ -77,7 +77,7 @@ function Login() {
         </button>
         <hr />
         <p style={{ color: "rgb(116, 128, 138)" }}>
-          Don't have an account? <Link to="/signup">Sign up</Link>
+          Don't have an account? <Link to="/justalk/signup">Sign up</Link>
         </p>
       </form>
 

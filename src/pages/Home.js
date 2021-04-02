@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
 
 function Home() {
@@ -12,8 +10,8 @@ function Home() {
             <h1 className="display-4" style={{ color: "#fff" }}>Welcome to Justalk</h1>
             <p className="lead" style={{ color: "#74808a" }}>A great place to share your thoughts with friends</p>
             <div className="mt-4">
-              <Link className="btn btn-primary px-5 mr-3" to="/signup">Create New Account</Link>
-              <Link className="btn btn-secondary px-5" to="/login">Login to Your Account</Link>
+              <Link className="btn btn-primary px-5 mr-3" to="/justalk/signup">Create New Account</Link>
+              <Link className="btn btn-secondary px-5" to="/justalk/login">Login to Your Account</Link>
             </div>
           </div>
         </div>

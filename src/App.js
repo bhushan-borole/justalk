@@ -21,7 +21,7 @@ function PrivateRoute({ component: Component, authenticated, ...rest }) {
       render={
         (props) => authenticated === true
           ? <Component {...props} />
-          : <Redirect to={{ pathname: '/login', state: { from: props.location } }} />
+          : <Redirect to={{ pathname: '/justalk/login', state: { from: props.location } }} />
       }
     />
   )
@@ -33,7 +33,7 @@ function PublicRoute({ component: Component, authenticated, ...rest }) {
       {...rest}
       render={
         (props) => authenticated === true
-         ? <Redirect to='/chat' />
+         ? <Redirect to='/justalk/chat' />
          : <Component {...props} />
       }
     />
@@ -63,24 +63,24 @@ function App() {
       <Switch>
         <Route 
           exact 
-          path="/" 
+          path="/justalk" 
           component={Home}>
         </Route>
         
         <PrivateRoute 
-          path="/chat" 
+          path="/justalk/chat" 
           authenticated={authenticated} 
           component={Chat}>
         </PrivateRoute>
 
         <PublicRoute 
-          path="/signup" 
+          path="/justalk/signup" 
           authenticated={authenticated} 
           component={SignUp}>
         </PublicRoute>
 
         <PublicRoute 
-          path="/login" 
+          path="/justalk/login" 
           authenticated={authenticated} 
           component={Login}>
         </PublicRoute>
