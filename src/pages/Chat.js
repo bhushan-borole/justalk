@@ -51,7 +51,7 @@ export default class Chat extends Component {
     try {
       await db.ref("chats").push({
         content: this.state.content,
-        timestamp: Date.now(),
+        timestamp: this.formatTime(Date.now()),
         uid: this.state.user.uid
       });
       this.setState({ content: '' });
@@ -95,7 +95,8 @@ export default class Chat extends Component {
             name="content" 
             onChange={this.handleChange} 
             value={this.state.content}
-            style={{ display: "block", marginLeft: "auto", marginRight: "auto" }}></textarea>
+            style={{ display: "block", marginLeft: "auto", marginRight: "auto" }}
+            required></textarea>
           {this.state.error ? <p className="text-danger">{this.state.error}</p> : null}
           <button type="submit" className="btn btn-submit px-5 mt-4">Send</button>
         </form>
