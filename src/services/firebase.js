@@ -1,7 +1,7 @@
 import firebase from 'firebase';
 
 const config = {
-  apiKey: "AIzaSyCydzw3BRykkSMEI5Nh2MXjSF_VzIygRcA",
+  apiKey: "YOUR API KEY",
   authDomain: "justalk-43797.firebaseapp.com",
   projectId: "justalk-43797",
   storageBucket: "justalk-43797.appspot.com",
